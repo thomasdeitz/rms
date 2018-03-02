@@ -1,0 +1,440 @@
+{
+  "appdata": {
+    "colors": {
+      "blue": "#0a5c83",
+      "green": "#9db192",
+      "orange": "#d07b4f"
+    },
+    "tiles": [
+      {
+        "icon": "fa-cart-plus",
+        "route": "CustomerLookup",
+        "label": "New Sale",
+        "size": "lg",
+        "color": "blue",
+        "column": 0
+      },
+      {
+        "icon": "fa-shopping-cart",
+        "route": "Sales",
+        "label": "Sales",
+        "size": "md",
+        "color": "blue",
+        "column": 0
+      }
+    ]
+  },
+  "customers": [
+    {
+      "id": 1,
+      "name": "Luke Natvig",
+      "phone": "262.567.8114",
+      "email": "l.natvig@gmail.com",
+      "address": {
+        "street": "1404 Bluebird Dr",
+        "city": "Oconomowoc",
+        "state": "Wisconsin",
+        "zip": "53066"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Lucas Deitz",
+      "phone": "262.567.8114",
+      "email": "l.deitz@gmail.com",
+      "address": {
+        "street": "1404 Bluebird Dr",
+        "city": "Oconomowoc",
+        "state": "Wisconsin",
+        "zip": "53066"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Tom Deitz",
+      "phone": "262.567.8114",
+      "email": "tnt.deitz@gmail.com",
+      "address": {
+        "street": "1404 Bluebird Dr",
+        "city": "Oconomowoc",
+        "state": "Wisconsin",
+        "zip": "53066"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Tracy Deitz",
+      "phone": "262.567.8114",
+      "email": "t.deitz@gmail.com",
+      "address": {
+        "street": "1404 Bluebird Dr",
+        "city": "Oconomowoc",
+        "state": "Wisconsin",
+        "zip": "53066"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Ian Fox",
+      "phone": "262.567.8114",
+      "email": "i.fox@gmail.com",
+      "address": {
+        "street": "1404 Bluebird Dr",
+        "city": "Oconomowoc",
+        "state": "Wisconsin",
+        "zip": "53066"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Starscream",
+      "phone": "262.567.9914",
+      "email": "s.scream@gmail.com",
+      "address": {
+        "street": "1404 Bluebird Dr",
+        "city": "Oconomowoc",
+        "state": "Wisconsin",
+        "zip": "53066"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Optimus Prime",
+      "phone": "262.567.3184",
+      "email": "o.prime@gmail.com",
+      "address": {
+        "street": "1404 Bluebird Dr",
+        "city": "Oconomowoc",
+        "state": "Wisconsin",
+        "zip": "53066"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Megatron",
+      "phone": "262.567.3211",
+      "email": "m.tron@gmail.com",
+      "address": {
+        "street": "1404 Bluebird Dr",
+        "city": "Oconomowoc",
+        "state": "Wisconsin",
+        "zip": "53066"
+      }
+    }
+  ],
+  "products": [
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+      "id": 1234567891,
+      "name": "Domane SLR 6 Gravel Disc",
+      "price": 5499.99,
+      "size": "44",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+      "id": 1234567892,
+      "name": "Domane SLR 6 Gravel Disc",
+      "price": 5499.99,
+      "size": "47",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+      "id": 1234567893,
+      "name": "Domane SLR 6 Gravel Disc",
+      "price": 5499.99,
+      "size": "50",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+      "id": 234567891,
+      "name": "Domane SLR 6 Gravel Disc",
+      "price": 5499.99,
+      "size": "52",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+      "id": 1234567895,
+      "name": "Domane SLR 6 Gravel Disc",
+      "price": 5499.99,
+      "size": "54",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+      "id": 123456789,
+      "name": "Domane SLR 6 Gravel Disc",
+      "price": 5499.99,
+      "size": "56",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+      "id": 1234567897,
+      "name": "Domane SLR 6 Gravel Disc",
+      "price": 5499.99,
+      "size": "58",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+      "id": 1234567898,
+      "name": "Domane SLR 6 Gravel Disc",
+      "price": 5499.99,
+      "size": "60",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+      "id": 1234567899,
+      "name": "Domane SLR 6 Gravel Disc",
+      "price": 5499.99,
+      "size": "62",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1378000_2017_A_1_CrossRip_3",
+      "id": 345678912,
+      "name": "CrossRip 3",
+      "price": 1899.99,
+      "size": "49",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1378000_2017_A_1_CrossRip_3",
+      "id": 23456789122,
+      "name": "CrossRip 3",
+      "price": 1899.99,
+      "size": "52",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1378000_2017_A_1_CrossRip_3",
+      "id": 234567891233,
+      "name": "CrossRip 3",
+      "price": 1899.99,
+      "size": "54",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1378000_2017_A_1_CrossRip_3",
+      "id": 23456789124,
+      "name": "CrossRip 3",
+      "price": 1899.99,
+      "size": "56",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1378000_2017_A_1_CrossRip_3",
+      "id": 23456789125,
+      "name": "CrossRip 3",
+      "price": 1899.99,
+      "size": "58",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1378000_2017_A_1_CrossRip_3",
+      "id": 23456789126,
+      "name": "CrossRip 3",
+      "price": 1899.99,
+      "size": "61",
+      "year": "2018"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/2466000_2018_A_1_Boone_7_Disc",
+      "id": 3456789121,
+      "name": "Boone 7",
+      "price": 1999.99,
+      "size": "50",
+      "year": "2017"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/2466000_2018_A_1_Boone_7_Disc",
+      "id": 3456789122,
+      "name": "Boone 7",
+      "price": 1999.99,
+      "size": "52",
+      "year": "2017"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/2466000_2018_A_1_Boone_7_Disc",
+      "id": 3456789123,
+      "name": "Boone 7",
+      "price": 1999.99,
+      "size": "54",
+      "year": "2017"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/2466000_2018_A_1_Boone_7_Disc",
+      "id": 3456789124,
+      "name": "Boone 7",
+      "price": 1999.99,
+      "size": "56",
+      "year": "2017"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/2466000_2018_A_1_Boone_7_Disc",
+      "id": 3456789125,
+      "name": "Boone 7",
+      "price": 1999.99,
+      "size": "58",
+      "year": "2017"
+    },
+    {
+      "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/2466000_2018_A_1_Boone_7_Disc",
+      "id": 3456789126,
+      "name": "Boone 7",
+      "price": 1999.99,
+      "size": "61",
+      "year": "2017"
+    }
+  ],
+  "sales": [
+    {
+      "date": "2018-02-28T21:55:08.250Z",
+      "id": 1,
+      "tax": 5.5,
+      "customer": {
+        "id": 3,
+        "name": "Tom Deitz",
+        "phone": "262.567.8114",
+        "email": "tnt.deitz@gmail.com",
+        "address": {
+          "street": "1404 Bluebird Dr",
+          "city": "Oconomowoc",
+          "state": "Wisconsin",
+          "zip": "53066"
+        }
+      },
+      "products": [
+        {
+          "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+          "id": 1234567891,
+          "name": "Domane SLR 6 Gravel Disc",
+          "price": 5499.99,
+          "size": "44",
+          "year": "2018"
+        },
+        {
+          "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+          "id": 1234567892,
+          "name": "Domane SLR 6 Gravel Disc",
+          "price": 5499.99,
+          "size": "47",
+          "year": "2018"
+        },
+        {
+          "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+          "id": 1234567892,
+          "name": "Domane SLR 6 Gravel Disc",
+          "price": 5499.99,
+          "size": "47",
+          "year": "2018"
+        }
+      ],
+      "transactions": [
+        {
+          "amount": "200",
+          "date": "2018-02-28T21:55:18.252Z",
+          "type": "payment",
+          "method": "Cash"
+        },
+        {
+          "amount": "12000",
+          "date": "2018-02-28T22:11:19.404Z",
+          "type": "payment",
+          "method": "Cash"
+        }
+      ]
+    },
+    {
+      "date": "2018-02-28T21:57:00.051Z",
+      "id": 2,
+      "tax": 5.5,
+      "customer": {
+        "id": 1,
+        "name": "Luke Natvig",
+        "phone": "262.567.8114",
+        "email": "l.natvig@gmail.com",
+        "address": {
+          "street": "1404 Bluebird Dr",
+          "city": "Oconomowoc",
+          "state": "Wisconsin",
+          "zip": "53066"
+        }
+      },
+      "products": [
+        {
+          "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+          "id": 1234567891,
+          "name": "Domane SLR 6 Gravel Disc",
+          "price": 5499.99,
+          "size": "44",
+          "year": "2018"
+        }
+      ],
+      "transactions": [
+        {
+          "amount": "1",
+          "date": "2018-02-28T21:57:07.128Z",
+          "type": "payment",
+          "method": "Cash"
+        }
+      ]
+    },
+    {
+      "date": "2018-02-28T22:57:01.980Z",
+      "id": 3,
+      "tax": 5.5,
+      "customer": {
+        "id": 2,
+        "name": "Lucas Deitz",
+        "phone": "262.567.8114",
+        "email": "l.deitz@gmail.com",
+        "address": {
+          "street": "1404 Bluebird Dr",
+          "city": "Oconomowoc",
+          "state": "Wisconsin",
+          "zip": "53066"
+        }
+      },
+      "products": [
+        {
+          "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1477390_2018_A_1_Domane_SLR_6_Disc_Gravel",
+          "id": 1234567892,
+          "name": "Domane SLR 6 Gravel Disc",
+          "price": 5499.99,
+          "size": "47",
+          "year": "2018"
+        },
+        {
+          "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/1378000_2017_A_1_CrossRip_3",
+          "id": 234567891233,
+          "name": "CrossRip 3",
+          "price": 1899.99,
+          "size": "54",
+          "year": "2018"
+        },
+        {
+          "image": "https://trek.scene7.com/is/image/TrekBicycleProducts/2466000_2018_A_1_Boone_7_Disc",
+          "id": 3456789121,
+          "name": "Boone 7",
+          "price": 1999.99,
+          "size": "50",
+          "year": "2017"
+        }
+      ],
+      "transactions": [
+        {
+          "amount": "2000",
+          "date": "2018-02-28T22:57:15.669Z",
+          "type": "payment",
+          "method": "Cash"
+        }
+      ]
+    }
+  ]
+}

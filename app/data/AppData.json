@@ -1,0 +1,25 @@
+{
+  "colors": {
+    "blue": "#0a5c83",
+    "green": "#9db192",
+    "orange": "#d07b4f"
+  },
+  "tiles": [
+    {
+      "icon": "cart",
+      "route": "CustomerLookup",
+      "label": "Add New Sale",
+      "size": "lg",
+      "color": "red",
+      "column": 0
+    },
+    {
+      "icon": "calendar",
+      "route": "Sales",
+      "label": "Sales",
+      "size": "md",
+      "color": "blue",
+      "column": 0
+    }
+  ]
+}

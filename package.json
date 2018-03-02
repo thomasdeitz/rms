@@ -1,0 +1,50 @@
+{
+  "name": "ascend-on-electron",
+  "productName": "Ascend - Retail Management",
+  "version": "0.0.1",
+  "description": "A POC",
+  "main": "main.js",
+  "build": {
+    "appId": "com.apple.idms.appleid.prd.7753686649636b307241324e2f6f64784879677872413d3d",
+    "files": ["**/*", "build/**/*", "app/**/*", "node_modules/**/*", "package.json"]
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "",
+  "keywords": [],
+  "author": "Tom Deitz",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-runtime": "^5.8.38",
+    "css-loader": "^0.28.9",
+    "electron": "~1.8.2",
+    "electron-builder": "^20.0.8",
+    "file-loader": "^1.1.9",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "pug": "^2.0.0-rc.4",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "url-loader": "^0.6.2",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^14.1.1",
+    "vue-style-loader": "^4.0.2",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "moment": "^2.20.1",
+    "node-usb-barcode-scanner": "^1.0.1",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1"
+  }
+}
